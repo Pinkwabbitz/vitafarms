@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Template</title>
+   <link href="stylefarm.css" rel="stylesheet"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	
+
+  
+</head>
+<body>
+
+   <header>
+	<nav>
+		<img src="VITA Farms Logo.png" class="logo">
+		<div class="hamburger" onclick="toggleMenu()"> <!-- Hamburger icon -->
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<ul id="nav-menu">
+			<li><a href="https://www.instagram.com/vitafarmspr/" target="_blank">Home</a></li>
+			<li><a href="about.html" target="_blank">About</a></li>
+			<li><a href="contact.html" target="_blank">Contact</a></li>
+		</ul>
+	</nav>
+</header>
+
+    
+<main class="company-name">
+   <h1>V<a class="lowercase">ita</a> Farms</h1>
+	<p>Nuestro enfoque es proveer productos de buena calidad, crecido en optimas condiciones y usando los mejores nutrientes. Sembrados en las montañas de Aibonito, Puerto Rico y distribuido a supermercados locales. 
+Our focus is to provide products of high quality, grown in optimal conditions using the best nutrients. Farmed in the mountains of Aibonito, Puerto Rico and distributed to local super markets.</p>
+</main>
+ 
+	
+    <!-- Three divs underneath with images and h2 -->
+    <div class="image-container">
+        <div class="image-box">
+            <img src="chickenicon.png"/>
+            <h2>Pesticide Free</h2>
+        </div>
+        <div class="image-box">
+           <img src="farmericon.png"/>
+            <h2>Non GMO seeds</h2>
+        </div>
+		
+        <div class="image-box">
+			<img src="produceicon.png"/> 
+            <h2>Local Produce</h2>
+			</div>
+		 </div>
+			
+<footer class="footer">
+        <p>&copy; 2024 Your Website</p>
+    </footer>
+<script>
+        function toggleMenu() {
+            const navMenu = document.getElementById("nav-menu");
+            navMenu.classList.toggle("active");
+        }
+    </script>
+</body>
+	
+</html>
